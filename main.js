@@ -58,7 +58,7 @@ clickEl.addEventListener('click', function () {
                 //this.style.backgroundColor = 'red'
                 //this.innerText = 'BOOM!💥'
                 gridEl.style = 'font-size: 40px; text-align:center; padding: 3rem 5rem; background-Color: yellow;'
-                gridEl.innerHTML = 'BOOM!💥 Game Over! Hai totalizzato ' + tries + ' punti';
+                gridEl.innerHTML = 'BOOM!💥 Game Over! You reached ' + tries + ' points';
 
             } else {
                 console.log('safe');
@@ -67,7 +67,7 @@ clickEl.addEventListener('click', function () {
 
             if (tries == 16) {
                 console.log('Hai Vinto! ' + tries + ' Punti fatti!');
-                gridEl.innerHTML = 'Hai Vinto! ' + tries + ' Punti fatti!'
+                gridEl.innerHTML = 'You win! ' + tries + ' points!'
             }
         })
     }
