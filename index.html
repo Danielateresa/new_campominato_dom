@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Campo minato Dom</title>
+    </head>
+    <body>
+        <main>
+            <div class="container py-5">
+                <div class="header d-flex align-items-center
+                    justify-content-between">
+                    <h1>Campo minato Dom 💥</h1>
+
+                    <div class="choose_level me-3">
+                        <label class="ms-5 p-2 fw-bold"
+                            for="level_selector">
+                            Scegli il livello di difficoltà
+                        </label>
+                        <select class="cells_number p-2" name="level_selector"
+                            id="level_selector">
+                            <option value="100">easy</option>
+                            <option value="81">medium</option>
+                            <option value="49">difficult</option>
+                        </select>
+                    </div>
+                    <button class="my-4">Generate grid</button>
+                </div>
+
+                <div class="grid">
+
+                </div>
+            </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>

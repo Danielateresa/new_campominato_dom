@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.cell {
+    font-size: 30px;
+    color: rgb(156, 156, 156);
+    aspect-ratio: 1/1;
+    border: 1px solid rgb(156, 156, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell.active {
+    background-color: blue;
+}
