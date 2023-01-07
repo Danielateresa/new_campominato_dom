@@ -16,24 +16,27 @@
     </head>
     <body>
         <main>
-            <div class="container py-5">
+            <div class="container py-5 d-flex flex-column
+                align-items-lg-stretch">
                 <div class="header d-flex align-items-center
                     justify-content-between">
                     <h1>Campo minato Dom 💥</h1>
 
-                    <div class="choose_level me-3">
+                    <div class="choose_level">
                         <label class="ms-5 p-2 fw-bold"
                             for="level_selector">
                             Difficulty level
                         </label>
-                        <select class="cells_number p-2" name="level_selector"
+                        <select class="cells_number p-2 me-3"
+                            name="level_selector"
                             id="level_selector">
                             <option value="100">easy</option>
                             <option value="81">medium</option>
                             <option value="49">difficult</option>
                         </select>
+
+                        <button class="my-4">Generate grid</button>
                     </div>
-                    <button class="my-4">Generate grid</button>
                 </div>
 
                 <div class="grid">
